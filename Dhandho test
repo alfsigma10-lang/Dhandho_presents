@@ -1,0 +1,2181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dhandho Presents | AI-Powered Instagram Marketing Agency for Gujarat Retailers</title>
+  
+  <meta name="description" content="Dhandho Presents converts your local shop into a recognizable brand with organic AI content, high-retention reels, and founder-led marketing. No paid ads, no shortcuts.">
+  <meta name="keywords" content="Instagram marketing agency Gujarat, AI content agency Surat Ahmedabad, organic Instagram growth, retail marketing Gujarat, Dhandho Presents">
+  
+  <!-- Open Graph / Meta -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Dhandho Presents — Real Content. More Reach. Higher Sales.">
+  <meta property="og:description" content="Convert your local retail shop into a powerful brand with organic AI content and high-retention video strategy.">
+  <meta property="og:image" content="assets/dhandho-logo.jpg">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/jpeg" href="assets/dhandho-logo.jpg">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ==========================================================================
+       SITE HEADER / NAVIGATION
+       ========================================================================== -->
+  <header class="site-header" id="siteHeader">
+    <div class="container nav-container">
+      <a href="#home" class="brand-logo" aria-label="Dhandho Presents Home">
+        <img src="assets/dhandho-logo.jpg" alt="Dhandho Presents Logo" class="brand-logo-img">
+        <div class="brand-text">
+          <span class="brand-title">Dhandho Presents</span>
+          <span class="brand-subtitle">AI Content & Organic Reach</span>
+        </div>
+      </a>
+
+      <nav class="nav-links" aria-label="Main Navigation">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#packages" class="nav-link">Packages</a>
+        <a href="#why-us" class="nav-link">Why Us</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#reels" class="nav-link">Viral Reels</a>
+        <a href="#results" class="nav-link">Results</a>
+        <a href="#process" class="nav-link">Process</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#calculator" class="nav-link">Growth Calculator</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button type="button" class="btn btn-dark btn-sm open-whatsapp-modal" id="navWhatsappBtn">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.007c.106.005.249-.04.39.299.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.353.101.173.45 1.056 1.348 1.855 1.154 1.026 2.127 1.343 2.428 1.492.301.149.477.13.655-.072.178-.203.764-.888.966-1.192.203-.304.405-.254.678-.153.274.101 1.739.82 2.042.971.303.151.505.226.578.352.072.126.072.73-.072 1.135z"/>
+          </svg>
+          Chat on WhatsApp
+        </button>
+
+        <button type="button" class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle navigation menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="modal-backdrop" id="mobileNavDrawer">
+    <div class="modal-window" style="max-width:340px; margin-left:auto; height:100vh; max-height:100vh; border-radius:0;">
+      <button type="button" class="modal-close-btn" id="closeMobileNav" aria-label="Close menu">&times;</button>
+      <div style="margin-top:40px; display:flex; flex-direction:column; gap:20px;">
+        <div style="display:flex; align-items:center; gap:10px; padding-bottom:16px; border-bottom:1px solid var(--border-light);">
+          <img src="assets/dhandho-logo.jpg" alt="Dhandho Presents" style="width:36px; height:36px; border-radius:50%;">
+          <strong style="font-family:var(--font-heading);">Dhandho Presents</strong>
+        </div>
+        <a href="#home" class="mobile-nav-link" style="font-size:16px; font-weight:600; color:var(--text-main);">Home</a>
+        <a href="#services" class="mobile-nav-link" style="font-size:16px; font-weight:600; color:var(--text-main);">Our Services</a>
+        <a href="#packages" class="mobile-nav-link" style="font-size:16px; font-weight:600; color:var(--text-main);">Packages &amp; Pricing</a>
+        <a href="#why-us" class="mobile-nav-link" style="font-size:16px; font-weight:600; color:var(--text-main);">Why Dhandho</a>
+        <a href="#projects" class="mobile-nav-link" style="font-size:16px; font-weight:600; color:var(--text-main);">Selected Projects</a>
+        <a href="#reels" class="mobile-nav-link" style="font-size:16px; font-weight:600; color:var(--text-main);">Viral Reels</a>
+        <a href="#results" class="mobile-nav-link" style="font-size:16px; font-weight:600; color:var(--text-main);">Real Results</a>
+        <a href="#process" class="mobile-nav-link" style="font-size:16px; font-weight:600; color:var(--text-main);">Our Process</a>
+        <a href="#about" class="mobile-nav-link" style="font-size:16px; font-weight:600; color:var(--text-main);">About Founder</a>
+        <a href="#calculator" class="mobile-nav-link" style="font-size:16px; font-weight:600; color:var(--text-main);">Reach Calculator</a>
+        <div style="margin-top:20px;">
+          <button type="button" class="btn btn-whatsapp btn-lg open-whatsapp-modal" style="width:100%;">
+            Chat on WhatsApp
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <!-- ==========================================================================
+         HERO SECTION
+         ========================================================================== -->
+    <section class="hero-section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-text-content">
+          <div class="hero-badge">
+            <span class="badge-dot"></span>
+            AI-POWERED INSTAGRAM MARKETING AGENCY
+          </div>
+
+          <h1 class="hero-title">
+            <span>Real Content.</span>
+            <span>More Reach.</span>
+            <span>Higher Sales.</span>
+          </h1>
+
+          <p class="hero-lead">
+            We help local retail shops in Gujarat grow on Instagram with AI-generated content, smart strategy and organic engagement — no paid ads, no shortcuts.
+          </p>
+
+          <div class="hero-cta-group">
+            <button type="button" class="btn btn-dark btn-lg open-whatsapp-modal" id="heroWhatsappCta">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.007c.106.005.249-.04.39.299.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.353.101.173.45 1.056 1.348 1.855 1.154 1.026 2.127 1.343 2.428 1.492.301.149.477.13.655-.072.178-.203.764-.888.966-1.192.203-.304.405-.254.678-.153.274.101 1.739.82 2.042.971.303.151.505.226.578.352.072.126.072.73-.072 1.135z"/>
+              </svg>
+              Chat on WhatsApp &rarr;
+            </button>
+
+            <a href="#projects" class="btn btn-outline btn-lg">
+              Explore Our Work
+            </a>
+          </div>
+
+          <div class="hero-features">
+            <div class="feature-pill">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/>
+              </svg>
+              AI Content
+            </div>
+
+            <div class="feature-pill">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M18 20V10M12 20V4M6 20v-6"/>
+              </svg>
+              Organic Growth
+            </div>
+
+            <div class="feature-pill">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                <circle cx="12" cy="10" r="3"/>
+              </svg>
+              Local Gujarat Focus
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Visual: Phone Mockup & Overlapping Polaroids -->
+        <div class="hero-media-wrapper">
+          <!-- Handwritten Note Arrow -->
+          <div class="handwritten-sticker">
+            <span class="handwritten-text">Better Content<br>More Customers</span>
+            <svg class="handwritten-arrow" viewBox="0 0 50 50">
+              <path d="M10,15 C25,25 35,20 40,35 M30,35 L40,35 L40,25" />
+            </svg>
+          </div>
+
+          <!-- Polaroid Left -->
+          <div class="polaroid-card polaroid-card-left">
+            <img src="assets/polaroid-hangers.jpg" alt="Mumbai Silks Collection Rack">
+          </div>
+
+          <!-- Phone Mockup Center -->
+          <div class="phone-mockup">
+            <div class="phone-notch">
+              <div class="camera-lens"></div>
+            </div>
+            <div class="phone-screen hero-phone-clickable" id="heroReelTrigger" title="Click to Watch Reel">
+              <img src="assets/reel-2.jpg" alt="Instagram Reel AI Content Showcase - Bhakti Creation" id="heroReelImg">
+
+              <!-- Interactive Controls Overlay -->
+              <div class="reel-interactive-overlay">
+                <div class="reel-creator-badge">
+                  <img src="assets/client-bhakti.jpg" alt="Bhakti Creation" class="creator-avatar">
+                  <div>
+                    <div class="creator-name">bhakti_creation22 &bull; Follow</div>
+                    <div style="font-size:10px; color:#cbd5e1;">Gondal &bull; Trending Audio</div>
+                  </div>
+                </div>
+                <div class="reel-caption">
+                  Festive choli mirror reaction ✨ AI-powered hooks that stop the scroll &amp; drive customer walk-ins!
+                </div>
+                <div class="reel-stats-bar">
+                  <span id="reelHeartBtn" style="cursor:pointer; display:inline-flex; align-items:center; gap:4px;">
+                    ❤️ <strong id="reelHeartCount">92.4K</strong>
+                  </span>
+                  <span>💬 1.8K</span>
+                  <span>↗️ 4.1K</span>
+                  <span id="reelSoundBtn" style="margin-left:auto; cursor:pointer;" title="Watch Reel">▶️ Watch</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Polaroid Right -->
+          <div class="polaroid-card polaroid-card-right">
+            <img src="assets/polaroid-jhumka.jpg" alt="Gold Jhumkas Jewelry">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         CLIENT MARQUEE / MANAGED PAGES
+         ========================================================================== -->
+    <section class="clients-section">
+      <div class="container">
+        <div class="clients-label">Brands & Retailers We Currently Manage & Grow</div>
+        <div class="clients-bar">
+          <div class="client-item">
+            <img src="assets/client-bhakti.jpg" alt="Bhakti Creation">
+            <div class="client-info">
+              <div class="client-info-name">Bhakti Creation</div>
+              <div class="client-info-category">Fashion & Sarees &bull; Surat</div>
+            </div>
+          </div>
+
+          <div class="client-item">
+            <img src="assets/client-ng.png" alt="NG Naturals">
+            <div class="client-info">
+              <div class="client-info-name">NG Naturals</div>
+              <div class="client-info-category">Ayurvedic Wellness &bull; Gujarat</div>
+            </div>
+          </div>
+
+          <div class="client-item">
+            <img src="assets/maa-icecream.jpg" alt="Maa Ice Cream">
+            <div class="client-info">
+              <div class="client-info-name">Maa Ice Cream</div>
+              <div class="client-info-category">Gourmet Desserts &bull; Ahmedabad</div>
+            </div>
+          </div>
+
+          <div class="client-item">
+            <img src="assets/rangoli-project.jpg" alt="Rangoli Store">
+            <div class="client-info">
+              <div class="client-info-name">Rangoli Store</div>
+              <div class="client-info-category">Bridal Couture &bull; Vadodara</div>
+            </div>
+          </div>
+
+          <div class="client-item">
+            <img src="assets/mobile-hub.jpg" alt="The Mobile Hub">
+            <div class="client-info">
+              <div class="client-info-name">The Mobile Hub</div>
+              <div class="client-info-category">Electronics &bull; Rajkot</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         WHAT WE DO / OUR SERVICES
+         ========================================================================== -->
+    <section class="services-section" id="services">
+      <div class="container">
+        <div class="section-header-flex">
+          <div class="section-header">
+            <span class="section-tag">WHAT WE DO</span>
+            <h2 class="section-title">Our Services</h2>
+            <p class="section-subtitle">
+              Everything you need to grow your Instagram organically and build a strong, reputable local brand.
+            </p>
+          </div>
+          <a href="#packages" class="btn btn-dark">
+            View Packages &amp; Pricing &rarr;
+          </a>
+        </div>
+
+        <div class="services-grid">
+          <!-- Service 1 -->
+          <div class="service-card">
+            <div class="service-icon-wrap">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="2" width="20" height="20" rx="2.18" ry="2.18"></rect>
+                <line x1="7" y1="2" x2="7" y2="22"></line>
+                <line x1="17" y1="2" x2="17" y2="22"></line>
+                <line x1="2" y1="12" x2="22" y2="12"></line>
+                <line x1="2" y1="7" x2="7" y2="7"></line>
+                <line x1="2" y1="17" x2="7" y2="17"></line>
+                <line x1="17" y1="17" x2="22" y2="17"></line>
+                <line x1="17" y1="7" x2="22" y2="7"></line>
+              </svg>
+            </div>
+            <h3 class="service-title">AI Reels &amp; Videos</h3>
+            <p class="service-desc">
+              Scroll-stopping short videos, cinematic product showcases, and high-retention Gujarati hooks engineered for viral reach.
+            </p>
+            <div class="service-deliverables">
+              <div class="deliverable-item">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                Dynamic 4K Video Editing
+              </div>
+              <div class="deliverable-item">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                AI Voiceover &amp; Subtitles
+              </div>
+              <div class="deliverable-item">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                High-Retention Hook Testing
+              </div>
+            </div>
+          </div>
+
+          <!-- Service 2 -->
+          <div class="service-card">
+            <div class="service-icon-wrap">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+              </svg>
+            </div>
+            <h3 class="service-title">Instagram Management</h3>
+            <p class="service-desc">
+              Consistent scheduled posting, aesthetic grid design, comment management, and DM reply flows that convert inquiries into walk-ins.
+            </p>
+            <div class="service-deliverables">
+              <div class="deliverable-item">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                Content Calendar &amp; Scheduling
+              </div>
+              <div class="deliverable-item">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                Active Engagement &amp; DMs
+              </div>
+              <div class="deliverable-item">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                Bio &amp; Highlight Optimization
+              </div>
+            </div>
+          </div>
+
+          <!-- Service 3 -->
+          <div class="service-card">
+            <div class="service-icon-wrap">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path>
+                <circle cx="12" cy="13" r="4"></circle>
+              </svg>
+            </div>
+            <h3 class="service-title">Creative Campaigns</h3>
+            <p class="service-desc">
+              Product photos, brand storytelling, seasonal festival campaigns (Navratri, Diwali, Wedding Season) and special retail offers.
+            </p>
+            <div class="service-deliverables">
+              <div class="deliverable-item">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                Festival &amp; Festive Storylines
+              </div>
+              <div class="deliverable-item">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                Showroom Product Spotlights
+              </div>
+              <div class="deliverable-item">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                Founder Persona Building
+              </div>
+            </div>
+          </div>
+
+          <!-- Service 4 -->
+          <div class="service-card">
+            <div class="service-icon-wrap">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="22 7 13.5 15.5 8.5 10.5 2 17"></polyline>
+                <polyline points="16 7 22 7 22 13"></polyline>
+              </svg>
+            </div>
+            <h3 class="service-title">Growth Strategy</h3>
+            <p class="service-desc">
+              Real community engagement, targeted regional reach, genuine follower accumulation, and turning viewers into paying customers.
+            </p>
+            <div class="service-deliverables">
+              <div class="deliverable-item">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                Zero-Ad Spend Organic Reach
+              </div>
+              <div class="deliverable-item">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                City-Targeted Discovery
+              </div>
+              <div class="deliverable-item">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                WhatsApp Lead Funnels
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         PACKAGES & PRICING
+         ========================================================================== -->
+    <section class="packages-section" id="packages">
+      <div class="container">
+        <div class="section-header-flex">
+          <div class="section-header">
+            <span class="section-tag">TRANSPARENT PRICING &amp; PACKAGES</span>
+            <h2 class="section-title">Growth Packages for Gujarat Retailers</h2>
+            <p class="section-subtitle">
+              Clear monthly deliverables, organic compounding reach, and predictable investment. No long-term lock-ins, no hidden commissions.
+            </p>
+          </div>
+          <div class="packages-guarantee-pill">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+            </svg>
+            <span>Cancel or switch anytime &bull; 100% Transparent</span>
+          </div>
+        </div>
+
+        <div class="packages-grid">
+          <!-- PACKAGE 01: Content Starter -->
+          <div class="package-card" id="package-starter">
+            <div class="package-top">
+              <div class="package-badge-header">
+                <span class="package-number-pill">PACKAGE 01</span>
+              </div>
+              <h3 class="package-title">Content Starter</h3>
+              <p class="package-tagline">
+                For local shops that want a consistent, professional Instagram presence.
+              </p>
+              <div class="package-price-wrap">
+                <span class="package-currency">₹</span>
+                <span class="package-amount">10,000</span>
+                <span class="package-period">/ month</span>
+              </div>
+            </div>
+
+            <div class="package-divider"></div>
+
+            <div class="package-body">
+              <div class="package-features-title">What's included:</div>
+              <ul class="package-features-list">
+                <li class="package-feature-item">
+                  <span class="feature-icon check">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                  </span>
+                  <span><strong>9 Reels</strong> per month</span>
+                </li>
+                <li class="package-feature-item">
+                  <span class="feature-icon check">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                  </span>
+                  <span><strong>7 Posts</strong> per month</span>
+                </li>
+                <li class="package-feature-item">
+                  <span class="feature-icon check">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                  </span>
+                  <span>AI-powered creative content</span>
+                </li>
+                <li class="package-feature-item">
+                  <span class="feature-icon check">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                  </span>
+                  <span>Monthly content planning</span>
+                </li>
+                <li class="package-feature-item">
+                  <span class="feature-icon check">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                  </span>
+                  <span>Captions and content ideas</span>
+                </li>
+              </ul>
+
+              <div class="package-best-for">
+                <span class="best-for-label">Best for:</span>
+                <p>Shops that need consistent content and want to improve their online presence.</p>
+              </div>
+            </div>
+
+            <div class="package-footer">
+              <button type="button" class="btn btn-outline package-cta-btn open-whatsapp-modal" data-package="Package 01 - Content Starter (₹10,000/mo)">
+                Choose Content Starter &rarr;
+              </button>
+            </div>
+          </div>
+
+          <!-- PACKAGE 02: Growth Accelerator (RECOMMENDED) -->
+          <div class="package-card package-card-featured" id="package-growth">
+            <div class="package-featured-ribbon">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+              </svg>
+              <span>RECOMMENDED</span>
+            </div>
+
+            <div class="package-top">
+              <div class="package-badge-header">
+                <span class="package-number-pill featured-pill">PACKAGE 02</span>
+              </div>
+              <h3 class="package-title">Growth Accelerator</h3>
+              <p class="package-tagline">
+                A strategy-led content and advertising package designed to help local businesses reach more potential customers.
+              </p>
+              <div class="package-price-wrap">
+                <span class="package-currency">₹</span>
+                <span class="package-amount">18,000</span>
+                <span class="package-period">/ month</span>
+              </div>
+            </div>
+
+            <div class="package-divider"></div>
+
+            <div class="package-body">
+              <div class="package-features-title">What's included:</div>
+              <ul class="package-features-list">
+                <li class="package-feature-item">
+                  <span class="feature-icon check">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                  </span>
+                  <span><strong>12 Reels</strong> per month</span>
+                </li>
+                <li class="package-feature-item">
+                  <span class="feature-icon check">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                  </span>
+                  <span><strong>15 Posts</strong> per month</span>
+                </li>
+                <li class="package-feature-item">
+                  <span class="feature-icon check">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                  </span>
+                  <span>Growth strategy and content planning</span>
+                </li>
+                <li class="package-feature-item">
+                  <span class="feature-icon check">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                  </span>
+                  <span>Paid advertising campaign setup and management</span>
+                </li>
+                <li class="package-feature-item">
+                  <span class="feature-icon check">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                  </span>
+                  <span>Monthly performance review</span>
+                </li>
+                <li class="package-feature-item">
+                  <span class="feature-icon check">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                  </span>
+                  <span>Local audience and customer-focused content</span>
+                </li>
+              </ul>
+
+              <!-- Price Breakdown Box -->
+              <div class="package-breakdown-box">
+                <div class="breakdown-header">
+                  <span>Price Breakdown</span>
+                  <span class="breakdown-badge">100% Transparent</span>
+                </div>
+                <div class="breakdown-row">
+                  <span class="breakdown-label">Your agency's service fee</span>
+                  <span class="breakdown-val">₹15,000</span>
+                </div>
+                <div class="breakdown-row">
+                  <span class="breakdown-label">Advertising budget</span>
+                  <span class="breakdown-val">₹3,000</span>
+                </div>
+                <div class="breakdown-divider"></div>
+                <div class="breakdown-row breakdown-total">
+                  <span class="breakdown-label">Total monthly cost</span>
+                  <span class="breakdown-val">₹18,000</span>
+                </div>
+              </div>
+
+              <div class="package-best-for">
+                <span class="best-for-label">Best for:</span>
+                <p>Shops that want consistent content combined with paid promotion and a measurable marketing process.</p>
+              </div>
+            </div>
+
+            <div class="package-footer">
+              <button type="button" class="btn btn-whatsapp package-cta-btn open-whatsapp-modal" data-package="Package 02 - Growth Accelerator (₹18,000/mo)">
+                Get Growth Accelerator &rarr;
+              </button>
+            </div>
+          </div>
+
+          <!-- PACKAGE 03: Brand Dominance -->
+          <div class="package-card package-card-upcoming" id="package-dominance">
+            <div class="package-top">
+              <div class="package-badge-header">
+                <span class="package-number-pill">PACKAGE 03</span>
+                <span class="package-status-pill">Coming Soon</span>
+              </div>
+              <h3 class="package-title">Brand Dominance</h3>
+              <p class="package-tagline">
+                Designed for ambitious local businesses looking for a more comprehensive brand-building and marketing solution.
+              </p>
+              <div class="package-price-wrap">
+                <span class="package-amount package-amount-custom">Scale &amp; Dominate</span>
+                <span class="package-period">/ Custom</span>
+              </div>
+            </div>
+
+            <div class="package-divider"></div>
+
+            <div class="package-body">
+              <div class="package-features-title">Potential future additions:</div>
+              <ul class="package-features-list">
+                <li class="package-feature-item">
+                  <span class="feature-icon star">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                  </span>
+                  <span>Advanced creative campaigns</span>
+                </li>
+                <li class="package-feature-item">
+                  <span class="feature-icon star">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                  </span>
+                  <span>Deeper analytics &amp; consumer insights</span>
+                </li>
+                <li class="package-feature-item">
+                  <span class="feature-icon star">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                  </span>
+                  <span>Customer acquisition strategy</span>
+                </li>
+                <li class="package-feature-item">
+                  <span class="feature-icon star">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                  </span>
+                  <span>Expanded brand storytelling</span>
+                </li>
+              </ul>
+
+              <div class="package-best-for">
+                <span class="best-for-label">Best for:</span>
+                <p>Ambitious local businesses looking for full-suite brand dominance and multi-location expansion.</p>
+              </div>
+            </div>
+
+            <div class="package-footer">
+              <button type="button" class="btn btn-outline package-cta-btn open-whatsapp-modal" data-package="Package 03 - Brand Dominance (Waitlist / Coming Soon)">
+                Join Waitlist / Pre-Inquire &rarr;
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Trust bar below packages -->
+        <div class="packages-trust-row">
+          <div class="trust-item">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+            <div>
+              <strong>No Binding Contracts</strong>
+              <span>Month-to-month billing with complete flexibility</span>
+            </div>
+          </div>
+          <div class="trust-item">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            <div>
+              <strong>Pure Gujarat Cultural Touch</strong>
+              <span>Scripts &amp; hooks crafted in local Gujarati and Hindi</span>
+            </div>
+          </div>
+          <div class="trust-item">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+            <div>
+              <strong>Rapid Onboarding</strong>
+              <span>First batch of content live within 7 days of onboarding</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         WHY DHANDHO PRESENTS? (THE COMPARISON)
+         DIRECTLY FROM USER'S AGENCY DESCRIPTION
+         ========================================================================== -->
+    <section class="comparison-section" id="why-us">
+      <div class="container">
+        <div class="comparison-intro">
+          <span class="section-tag">WHY DHANDHO PRESENTS?</span>
+          <h2 class="section-title">Turn Your Shop into a Respected Brand</h2>
+          <p class="section-subtitle">
+            Because a business page is the <strong>only channel where you won't have to keep spending on advertisements</strong>, yet the reach of your page will continue to grow exponentially over time.
+          </p>
+
+          <div class="highlight-quote">
+            <p>
+              "The main difference between any other agency and Dhandho Presents is that <strong>Dhandho Presents takes your small shop and converts it into a small brand</strong> by creating organic AI content."
+            </p>
+          </div>
+        </div>
+
+        <div class="comparison-grid">
+          <!-- Broken Local Agency Card -->
+          <div class="comparison-card card-broken">
+            <div class="card-header-badge badge-broken">
+              <span>&#10005;</span> The Traditional Agency Trap
+            </div>
+            <h3 class="card-agency-title">Local Digital Marketing Agency</h3>
+
+            <div class="comparison-points">
+              <div class="point-item">
+                <div class="point-icon icon-broken">&#10005;</div>
+                <div class="point-content">
+                  <h4>Unengaging Scripts</h4>
+                  <p>Their script writing is generic, repetitive, and fails to captivate viewers. People scroll past within 1 second.</p>
+                </div>
+              </div>
+
+              <div class="point-item">
+                <div class="point-icon icon-broken">&#10005;</div>
+                <div class="point-content">
+                  <h4>Forced Advertising</h4>
+                  <p>You are forced to constantly run paid Meta advertisements to see any traction. The moment you pause ads, views drop to zero.</p>
+                </div>
+              </div>
+
+              <div class="point-item">
+                <div class="point-icon icon-broken">&#10005;</div>
+                <div class="point-content">
+                  <h4>Low Return on Investment</h4>
+                  <p>Despite spending heavily on ads, you do not get a matching number of genuine inquiries or paying customers in return.</p>
+                </div>
+              </div>
+
+              <div class="point-item">
+                <div class="point-icon icon-broken">&#10005;</div>
+                <div class="point-content">
+                  <h4>Budget Burnout</h4>
+                  <p>Ultimately, you end up burning through your marketing budget on Meta ads, resulting in high expenses but very few repeat customers.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Dhandho Presents Elevated Card -->
+          <div class="comparison-card card-dhandho">
+            <div class="card-header-badge badge-dhandho">
+              <span>&#10003;</span> The Organic First Advantage
+            </div>
+            <h3 class="card-agency-title">Dhandho SaaS &amp; Media Agency</h3>
+
+            <div class="comparison-points">
+              <div class="point-item">
+                <div class="point-icon icon-dhandho">&#10003;</div>
+                <div class="point-content">
+                  <h4>Organic Compounding Growth</h4>
+                  <p>Your business page grows organically and naturally over time. Every reel acts as a 24/7 digital salesman that compounds month after month.</p>
+                </div>
+              </div>
+
+              <div class="point-item">
+                <div class="point-icon icon-dhandho">&#10003;</div>
+                <div class="point-content">
+                  <h4>High Inquiries &amp; Conversions</h4>
+                  <p>Because our scripts are highly engaging and tailored to Gujarati buyers, even when you run an ad, it generates a massive volume of inquiries.</p>
+                </div>
+              </div>
+
+              <div class="point-item">
+                <div class="point-icon icon-dhandho">&#10003;</div>
+                <div class="point-content">
+                  <h4>Maximum Retention</h4>
+                  <p>Our engaging visual hooks and storytelling ensure customers stay and watch your Reels until the very end, winning the Instagram algorithm.</p>
+                </div>
+              </div>
+
+              <div class="point-item">
+                <div class="point-icon icon-dhandho">&#10003;</div>
+                <div class="point-content">
+                  <h4>Balanced Strategy</h4>
+                  <p>While organic reach is our core pillar, advertising works 5x better and cheaper when supported by authentic, high-quality content.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="usp-ribbon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+              </svg>
+              <div class="usp-ribbon-text">
+                <strong>Our Main USP:</strong> The business owners themselves do the marketing directly. Authentic, human, and trusted by local buyers!
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         SELECTED PROJECTS / PORTFOLIO
+         ========================================================================== -->
+    <section class="projects-section" id="projects">
+      <div class="container">
+        <div class="section-header-flex">
+          <div class="section-header">
+            <span class="section-tag">OUR WORK</span>
+            <h2 class="section-title">Selected Projects</h2>
+            <p class="section-subtitle">
+              Take a look at how we've helped retail shops across Gujarat transform their Instagram presence.
+            </p>
+          </div>
+
+          <div class="project-filters">
+            <button type="button" class="filter-btn active" data-filter="all">All Niches</button>
+            <button type="button" class="filter-btn" data-filter="fashion">Fashion &amp; Bridal</button>
+            <button type="button" class="filter-btn" data-filter="retail">Retail &amp; Food</button>
+            <button type="button" class="filter-btn" data-filter="electronics">Electronics</button>
+            <button type="button" class="filter-btn" data-filter="wellness">Ayurvedic</button>
+          </div>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1: Bhakti Creation -->
+          <article class="project-card view-case-study-trigger" data-category="fashion" data-study="bhakti">
+            <div class="project-thumb-wrap">
+              <img src="assets/bhakti-project.jpg" alt="Bhakti Creation Fashion Showroom" loading="lazy">
+              <span class="project-tag-pill">Gondal, Gujarat</span>
+              <span class="project-reel-badge">🎬 4 Live Reels</span>
+              <span class="project-growth-badge"><span>+248%</span> Reach</span>
+            </div>
+            <div class="project-content">
+              <div class="project-info">
+                <h3>Bhakti Creation</h3>
+                <p>Fashion | Reels &amp; Content</p>
+              </div>
+              <div class="project-arrow-btn" aria-label="View Bhakti Creation details">&rarr;</div>
+            </div>
+          </article>
+
+          <!-- Project 2: Maa Ice Cream -->
+          <article class="project-card view-case-study-trigger" data-category="retail" data-study="icecream">
+            <div class="project-thumb-wrap">
+              <img src="assets/maa-icecream.jpg" alt="Maa Ice Cream Artisanal Sundaes" loading="lazy">
+              <span class="project-tag-pill">Ahmedabad</span>
+              <span class="project-growth-badge"><span>3.5x</span> Footfall</span>
+            </div>
+            <div class="project-content">
+              <div class="project-info">
+                <h3>Maa Ice Cream</h3>
+                <p>Retail | Reels &amp; Posts</p>
+              </div>
+              <div class="project-arrow-btn" aria-label="View Maa Ice Cream details">&rarr;</div>
+            </div>
+          </article>
+
+          <!-- Project 3: Rangoli Store -->
+          <article class="project-card view-case-study-trigger" data-category="fashion" data-study="rangoli">
+            <div class="project-thumb-wrap">
+              <img src="assets/rangoli-project.jpg" alt="Rangoli Store Bridal Couture" loading="lazy">
+              <span class="project-tag-pill">Vadodara</span>
+              <span class="project-growth-badge"><span>100%</span> Organic</span>
+            </div>
+            <div class="project-content">
+              <div class="project-info">
+                <h3>Rangoli Store</h3>
+                <p>Fashion | Content &amp; Growth</p>
+              </div>
+              <div class="project-arrow-btn" aria-label="View Rangoli Store details">&rarr;</div>
+            </div>
+          </article>
+
+          <!-- Project 4: The Mobile Hub -->
+          <article class="project-card view-case-study-trigger" data-category="electronics" data-study="mobilehub">
+            <div class="project-thumb-wrap">
+              <img src="assets/mobile-hub.jpg" alt="The Mobile Hub Electronics Store" loading="lazy">
+              <span class="project-tag-pill">Rajkot</span>
+              <span class="project-growth-badge"><span>120+</span> Sales</span>
+            </div>
+            <div class="project-content">
+              <div class="project-info">
+                <h3>The Mobile Hub</h3>
+                <p>Electronics | Reels &amp; Strategy</p>
+              </div>
+              <div class="project-arrow-btn" aria-label="View The Mobile Hub details">&rarr;</div>
+            </div>
+          </article>
+
+          <!-- Project 5: NG Naturals -->
+          <article class="project-card view-case-study-trigger" data-category="wellness" data-study="ngnaturals">
+            <div class="project-thumb-wrap">
+              <img src="assets/ng-naturals.jpg" alt="NG Naturals Ayurvedic Skincare" loading="lazy">
+              <span class="project-tag-pill">Gujarat</span>
+              <span class="project-growth-badge"><span>18.5K</span> Followers</span>
+            </div>
+            <div class="project-content">
+              <div class="project-info">
+                <h3>NG Naturals</h3>
+                <p>Ayurvedic | Branding &amp; Reels</p>
+              </div>
+              <div class="project-arrow-btn" aria-label="View NG Naturals details">&rarr;</div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         VIRAL REELS SHOWCASE SECTION
+         ========================================================================== -->
+    <section class="reels-section" id="reels">
+      <div class="container">
+        <div class="section-header-flex">
+          <div class="section-header">
+            <span class="section-tag">LIVE INSTAGRAM PORTFOLIO</span>
+            <h2 class="section-title">Viral Reels in Action</h2>
+            <p class="section-subtitle">
+              Authentic high-retention content produced for Gujarat retail businesses. Watch how our strategic hooks and storytelling convert viewers into direct store walk-ins.
+            </p>
+          </div>
+
+          <div class="reels-header-action">
+            <a href="https://www.instagram.com/bhakti_creation22/" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+              </svg>
+              View Client Instagram Profile &rarr;
+            </a>
+          </div>
+        </div>
+
+        <div class="reels-grid">
+          <!-- Reel Card 1 -->
+          <article class="reel-card open-reel-player" data-reel-index="0" title="Click to Play Reel">
+            <div class="reel-card-inner">
+              <div class="reel-poster-wrap">
+                <img src="assets/reel-1.jpg" alt="Bhakti Creation Bridal Choli Fitting Reveal Reel" loading="lazy">
+                <div class="reel-gradient-overlay"></div>
+                
+                <!-- Reel Top Bar -->
+                <div class="reel-card-top">
+                  <div class="reel-card-brand">
+                    <img src="assets/client-bhakti.jpg" alt="Bhakti Creation" class="reel-brand-avatar">
+                    <div class="reel-brand-meta">
+                      <span class="reel-brand-name">bhakti_creation22</span>
+                      <span class="reel-brand-loc">Gondal, Gujarat</span>
+                    </div>
+                  </div>
+                  <span class="reel-badge-pill">85K+ Views</span>
+                </div>
+
+                <!-- Play Button Center Overlay -->
+                <button type="button" class="reel-play-btn" aria-label="Play Reel: Designer Choli Fitting Reveal">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                    <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                  </svg>
+                </button>
+
+                <!-- Reel Bottom Info -->
+                <div class="reel-card-bottom">
+                  <div class="reel-topic-tag">Fitting Room Hook</div>
+                  <h3 class="reel-card-caption">
+                    Jaldi thi aavo Bhakti Creation ma ✨ Tirumala Shopping Mall Gondal
+                  </h3>
+                  <div class="reel-card-stats">
+                    <div class="reel-stat-group">
+                      <span>❤️ 1.2K</span>
+                      <span>💬 84</span>
+                      <span>↗️ 320</span>
+                    </div>
+                    <div class="reel-action-links">
+                      <button type="button" class="reel-inline-watch-btn">
+                        Watch Reel
+                      </button>
+                      <a href="https://www.instagram.com/p/DeovCf8E38S/" target="_blank" rel="noopener noreferrer" class="reel-ext-link" title="Open on Instagram" onclick="event.stopPropagation();">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                          <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                          <polyline points="15 3 21 3 21 9"></polyline>
+                          <line x1="10" y1="14" x2="21" y2="3"></line>
+                        </svg>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Reel Card 2 -->
+          <article class="reel-card open-reel-player" data-reel-index="1" title="Click to Play Reel">
+            <div class="reel-card-inner">
+              <div class="reel-poster-wrap">
+                <img src="assets/reel-2.jpg" alt="Bhakti Creation Customer Excitement & Mirror Try-on Reel" loading="lazy">
+                <div class="reel-gradient-overlay"></div>
+                
+                <div class="reel-card-top">
+                  <div class="reel-card-brand">
+                    <img src="assets/client-bhakti.jpg" alt="Bhakti Creation" class="reel-brand-avatar">
+                    <div class="reel-brand-meta">
+                      <span class="reel-brand-name">bhakti_creation22</span>
+                      <span class="reel-brand-loc">Gondal, Gujarat</span>
+                    </div>
+                  </div>
+                  <span class="reel-badge-pill">92K+ Views</span>
+                </div>
+
+                <button type="button" class="reel-play-btn" aria-label="Play Reel: Customer Excitement & Mirror Try-on">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                    <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                  </svg>
+                </button>
+
+                <div class="reel-card-bottom">
+                  <div class="reel-topic-tag">High Retention Hook</div>
+                  <h3 class="reel-card-caption">
+                    Stunning Choli Collections &amp; Instant Mirror Reaction 😍 Perfect Fit
+                  </h3>
+                  <div class="reel-card-stats">
+                    <div class="reel-stat-group">
+                      <span>❤️ 1.8K</span>
+                      <span>💬 112</span>
+                      <span>↗️ 410</span>
+                    </div>
+                    <div class="reel-action-links">
+                      <button type="button" class="reel-inline-watch-btn">
+                        Watch Reel
+                      </button>
+                      <a href="https://www.instagram.com/p/DeeQdijP9rn/" target="_blank" rel="noopener noreferrer" class="reel-ext-link" title="Open on Instagram" onclick="event.stopPropagation();">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                          <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                          <polyline points="15 3 21 3 21 9"></polyline>
+                          <line x1="10" y1="14" x2="21" y2="3"></line>
+                        </svg>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Reel Card 3 -->
+          <article class="reel-card open-reel-player" data-reel-index="2" title="Click to Play Reel">
+            <div class="reel-card-inner">
+              <div class="reel-poster-wrap">
+                <img src="assets/reel-3.jpg" alt="Pani Puri & Festive Shopping Street Vlog Reel" loading="lazy">
+                <div class="reel-gradient-overlay"></div>
+                
+                <div class="reel-card-top">
+                  <div class="reel-card-brand">
+                    <img src="assets/client-bhakti.jpg" alt="Bhakti Creation" class="reel-brand-avatar">
+                    <div class="reel-brand-meta">
+                      <span class="reel-brand-name">bhakti_creation22</span>
+                      <span class="reel-brand-loc">Gondal, Gujarat</span>
+                    </div>
+                  </div>
+                  <span class="reel-badge-pill">110K+ Views</span>
+                </div>
+
+                <button type="button" class="reel-play-btn" aria-label="Play Reel: Street Vlog & Shopping Trip">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                    <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                  </svg>
+                </button>
+
+                <div class="reel-card-bottom">
+                  <div class="reel-topic-tag">Lifestyle Vlog Hook</div>
+                  <h3 class="reel-card-caption">
+                    Shopping Trip + Pani Puri Vlog 🍲 Gondal Market Walkthrough
+                  </h3>
+                  <div class="reel-card-stats">
+                    <div class="reel-stat-group">
+                      <span>❤️ 2.4K</span>
+                      <span>💬 168</span>
+                      <span>↗️ 620</span>
+                    </div>
+                    <div class="reel-action-links">
+                      <button type="button" class="reel-inline-watch-btn">
+                        Watch Reel
+                      </button>
+                      <a href="https://www.instagram.com/p/DeUGWqmvBxD/" target="_blank" rel="noopener noreferrer" class="reel-ext-link" title="Open on Instagram" onclick="event.stopPropagation();">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                          <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                          <polyline points="15 3 21 3 21 9"></polyline>
+                          <line x1="10" y1="14" x2="21" y2="3"></line>
+                        </svg>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Reel Card 4 -->
+          <article class="reel-card open-reel-player" data-reel-index="3" title="Click to Play Reel">
+            <div class="reel-card-inner">
+              <div class="reel-poster-wrap">
+                <img src="assets/reel-4.jpg" alt="Bhakti Creation Walk-in Customer Journey Reel" loading="lazy">
+                <div class="reel-gradient-overlay"></div>
+                
+                <div class="reel-card-top">
+                  <div class="reel-card-brand">
+                    <img src="assets/client-bhakti.jpg" alt="Bhakti Creation" class="reel-brand-avatar">
+                    <div class="reel-brand-meta">
+                      <span class="reel-brand-name">bhakti_creation22</span>
+                      <span class="reel-brand-loc">Gondal, Gujarat</span>
+                    </div>
+                  </div>
+                  <span class="reel-badge-pill">140K+ Views</span>
+                </div>
+
+                <button type="button" class="reel-play-btn" aria-label="Play Reel: “નથી મળતી...” થી “બસ આ જ જોઈએ છે!”">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                    <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                  </svg>
+                </button>
+
+                <div class="reel-card-bottom">
+                  <div class="reel-topic-tag">Store Walk-in Hook</div>
+                  <h3 class="reel-card-caption">
+                    “નથી મળતી...” થી લઈને “બસ, આ જ જોઈએ છે! 😍” સુધીની સફર
+                  </h3>
+                  <div class="reel-card-stats">
+                    <div class="reel-stat-group">
+                      <span>❤️ 3.1K</span>
+                      <span>💬 205</span>
+                      <span>↗️ 890</span>
+                    </div>
+                    <div class="reel-action-links">
+                      <button type="button" class="reel-inline-watch-btn">
+                        Watch Reel
+                      </button>
+                      <a href="https://www.instagram.com/p/DeO9isovAi1/" target="_blank" rel="noopener noreferrer" class="reel-ext-link" title="Open on Instagram" onclick="event.stopPropagation();">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                          <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                          <polyline points="15 3 21 3 21 9"></polyline>
+                          <line x1="10" y1="14" x2="21" y2="3"></line>
+                        </svg>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <!-- Reels Bottom Banner: Strategy Behind Reels -->
+        <div class="reels-callout-box">
+          <div class="reels-callout-content">
+            <div class="reels-callout-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polygon points="23 7 16 12 23 17 23 7"></polygon>
+                <rect x="1" y="5" width="15" height="14" rx="2" ry="2"></rect>
+              </svg>
+            </div>
+            <div>
+              <h4>Why These Reels Generated 85,000+ Views Without Any Ad Spend</h4>
+              <p>
+                We replaced boring static catalogs with relatable Gujarati hooks, behind-the-scenes shopping reactions, and transparent pricing. 100% organic algorithm distribution, zero wasted boost budget.
+              </p>
+            </div>
+          </div>
+          <button type="button" class="btn btn-whatsapp open-whatsapp-modal" data-package="Package 02 - Growth Accelerator (₹18,000/mo)">
+            Get Viral Reels For Your Shop &rarr;
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         REAL RESULTS & SPOTLIGHT CASE STUDY
+         ========================================================================== -->
+    <section class="results-section" id="results">
+      <div class="container">
+        <div class="section-header-flex">
+          <div class="section-header">
+            <span class="section-tag">PROVEN IMPACT</span>
+            <h2 class="section-title">Real Results</h2>
+            <p class="section-subtitle">
+              Our work speaks for itself. Here's how we've helped local Gujarat businesses grow on Instagram without burning ad cash.
+            </p>
+          </div>
+
+          <a href="#projects" class="btn-link">View More Case Studies &rarr;</a>
+        </div>
+
+        <div class="results-grid">
+          <!-- 3 Stats Columns -->
+          <div class="stats-card-group">
+            <div class="stat-box">
+              <div class="stat-number counter-val" data-target="3.2" data-decimal="true" data-suffix="M+">0</div>
+              <div class="stat-title">Total Reach</div>
+              <div class="stat-sub">Across all client accounts</div>
+            </div>
+
+            <div class="stat-box">
+              <div class="stat-number counter-val" data-target="18" data-decimal="false" data-suffix="K+">0</div>
+              <div class="stat-title">New Followers</div>
+              <div class="stat-sub">Organic growth (avg. per client)</div>
+            </div>
+
+            <div class="stat-box">
+              <div class="stat-number counter-val" data-target="1200" data-decimal="false" data-suffix="+">0</div>
+              <div class="stat-title">Business Enquiries</div>
+              <div class="stat-sub">Generated directly for clients</div>
+            </div>
+          </div>
+
+          <!-- Featured Spotlight Case Card -->
+          <div class="spotlight-case-box">
+            <img src="assets/bhakti-project.jpg" alt="Bhakti Creation Featured" class="case-thumb">
+            <div class="case-body">
+              <div class="case-client-name">Bhakti Creation &bull; Surat</div>
+              <div class="case-stat-big">+248%</div>
+              <div class="case-stat-label">Instagram organic reach in 45 days</div>
+              <button type="button" class="case-link-btn view-case-study-trigger" data-study="bhakti">
+                View Full Case Study &rarr;
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         HOW IT WORKS / OUR 5-STEP PROCESS
+         ========================================================================== -->
+    <section class="process-section" id="process">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">HOW IT WORKS</span>
+          <h2 class="section-title">Our Process</h2>
+          <p class="section-subtitle">
+            A simple, highly effective process to get your brand on Instagram and scale organically.
+          </p>
+        </div>
+
+        <div class="process-steps-grid">
+          <!-- Step 1 -->
+          <div class="process-step-card">
+            <div class="step-number-badge">01</div>
+            <h3 class="step-card-title">Understand Your Business</h3>
+            <p class="step-card-desc">
+              We learn about your brand, store, your products, and your target local Gujarat audience.
+            </p>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="process-step-card">
+            <div class="step-number-badge">02</div>
+            <h3 class="step-card-title">Plan &amp; Create</h3>
+            <p class="step-card-desc">
+              Strategy, viral retention scriptwriting, content calendar, and AI-assisted visuals.
+            </p>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="process-step-card">
+            <div class="step-number-badge">03</div>
+            <h3 class="step-card-title">Post &amp; Engage</h3>
+            <p class="step-card-desc">
+              Consistent posting schedule, trending Gujarati audio, Reels, and community engagement.
+            </p>
+          </div>
+
+          <!-- Step 4 -->
+          <div class="process-step-card">
+            <div class="step-number-badge">04</div>
+            <h3 class="step-card-title">Track &amp; Improve</h3>
+            <p class="step-card-desc">
+              Monitor retention graphs, watch times, inquiries, and optimize for even better results.
+            </p>
+          </div>
+
+          <!-- Step 5 -->
+          <div class="process-step-card">
+            <div class="step-number-badge">05</div>
+            <h3 class="step-card-title">Grow Together</h3>
+            <p class="step-card-desc">
+              More reach, more footfall, more inquiries, and continuous sustainable dhandho!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         FOUNDER & THE DHANDHO MISSION
+         FEATURING REAL FOUNDER ASSET
+         ========================================================================== -->
+    <section class="founder-section" id="about">
+      <div class="container founder-grid">
+        <div class="founder-image-wrapper">
+          <div class="founder-img-card">
+            <img src="assets/founder.png" alt="Dhandho Presents Founder holding client and agency logos">
+            <div class="founder-caption-pill">
+              <div>
+                <div class="founder-caption-name">Founder &bull; Dhandho Presents</div>
+                <div class="founder-caption-role">AI Media Strategist &bull; Gujarat</div>
+              </div>
+              <div class="founder-verified-tag">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                </svg>
+                Founder Led
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="founder-story-content">
+          <span class="section-tag">MEET THE FOUNDER</span>
+          <h2 class="section-title">"તમારા નાના ધંધાને મોટી બ્રાન્ડ બનાવવાની જવાબદારી અમારી."</h2>
+
+          <div class="gujarati-quote">
+            "Every Gujarati shopkeeper has incredible products and unmatched hospitality. But most get exploited by cookie-cutter digital agencies that burn their money on useless Meta ads."
+          </div>
+
+          <p class="founder-story-text">
+            At <strong>Dhandho Presents</strong>, we combine high-speed AI tools with genuine local storytelling. We believe the business owners themselves should shine in the spotlight — because local buyers buy from people they trust. 
+          </p>
+
+          <p class="founder-story-text">
+            From saree showrooms in Surat to diamond merchants, cafes in Ahmedabad, and electronics hubs in Rajkot, we build organic assets that appreciate in value every single day.
+          </p>
+
+          <div class="founder-badges-list">
+            <div class="founder-badge-item">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              Zero Ad Budget Waste
+            </div>
+            <div class="founder-badge-item">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              Gujarati Script &amp; Cultural Nuances
+            </div>
+            <div class="founder-badge-item">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              Direct WhatsApp Sales Funnels
+            </div>
+          </div>
+
+          <div>
+            <button type="button" class="btn btn-dark btn-lg open-whatsapp-modal">
+              Talk Directly with the Founder &rarr;
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         INTERACTIVE GROWTH & AD SAVINGS CALCULATOR
+         ========================================================================== -->
+    <section class="calculator-section" id="calculator">
+      <div class="container">
+        <div class="section-header" style="text-align:center;">
+          <span class="section-tag">ORGANIC POTENTIAL CALCULATOR</span>
+          <h2 class="section-title">See What Organic Reach Can Do for Your Shop</h2>
+          <p class="section-subtitle" style="margin: 12px auto 0;">
+            Calculate your estimated 90-day organic reach and how much money you can save by not wasting budget on paid ads.
+          </p>
+        </div>
+
+        <div class="calculator-card">
+          <div class="calc-inputs">
+            <div class="calc-group">
+              <label for="calcCategory">Select Your Industry / Business Type:</label>
+              <select id="calcCategory" class="calc-select">
+                <option value="fashion">👗 Fashion, Sarees &amp; Boutiques</option>
+                <option value="food">🍦 Cafes, Sweets &amp; Restaurants</option>
+                <option value="electronics">📱 Mobile &amp; Electronics Retail</option>
+                <option value="jewelry">💍 Gold &amp; Diamond Jewelry</option>
+                <option value="ayurvedic">🌿 Ayurvedic, Wellness &amp; Skincare</option>
+              </select>
+            </div>
+
+            <div class="calc-group">
+              <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
+                <label for="calcFollowers" style="margin-bottom:0;">Your Current Follower Count:</label>
+                <span id="calcFollowersVal" style="font-weight:700; color:var(--text-main); font-family:var(--font-heading);">1,500 followers</span>
+              </div>
+              <input type="range" id="calcFollowers" class="calc-range" min="100" max="25000" step="100" value="1500">
+              <div class="range-labels">
+                <span>100</span>
+                <span>5,000</span>
+                <span>15,000</span>
+                <span>25,000+</span>
+              </div>
+            </div>
+
+            <p style="font-size:13px; color:var(--text-muted); line-height:1.5;">
+              * Calculations are modeled on our verified 45-day client benchmark averages across Gujarat retail accounts.
+            </p>
+          </div>
+
+          <div class="calc-results-box">
+            <div class="calc-result-metric">
+              <div class="calc-metric-label">Projected 90-Day Organic Views</div>
+              <div class="calc-metric-val" id="calcReachResult">52K+</div>
+            </div>
+
+            <div class="calc-result-metric">
+              <div class="calc-metric-label">Projected WhatsApp Inquiries</div>
+              <div class="calc-metric-val" id="calcInquiriesResult" style="color:#ffffff;">62+ Direct Enquiries</div>
+            </div>
+
+            <div class="calc-result-metric">
+              <div class="calc-metric-label">Estimated Ad Budget Saved</div>
+              <div class="calc-metric-val" id="calcSavingsResult">₹11,160 Saved on Ads</div>
+            </div>
+
+            <button type="button" class="btn btn-whatsapp btn-lg open-whatsapp-modal" style="width:100%; margin-top:8px;">
+              Claim This Strategy on WhatsApp
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         READY TO GROW YOUR BRAND BANNER CTA
+         ========================================================================== -->
+    <section class="banner-cta-section">
+      <div class="container">
+        <div class="banner-card">
+          <div class="banner-content">
+            <h2 class="banner-title">Ready to Grow Your Brand?</h2>
+            <p class="banner-sub">
+              Let's create scroll-stopping content for your shop. Get a free consultation and customized content plan today.
+            </p>
+            <div class="banner-tags">
+              <div class="banner-tag-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                Free Consultation
+              </div>
+              <div class="banner-tag-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                Quick WhatsApp Response
+              </div>
+              <div class="banner-tag-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                Gujarat Based
+              </div>
+            </div>
+          </div>
+
+          <div class="banner-action">
+            <button type="button" class="btn btn-whatsapp btn-lg open-whatsapp-modal">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.007c.106.005.249-.04.39.299.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.353.101.173.45 1.056 1.348 1.855 1.154 1.026 2.127 1.343 2.428 1.492.301.149.477.13.655-.072.178-.203.764-.888.966-1.192.203-.304.405-.254.678-.153.274.101 1.739.82 2.042.971.303.151.505.226.578.352.072.126.072.73-.072 1.135z"/>
+              </svg>
+              Chat on WhatsApp &rarr;
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         FAQ SECTION
+         ========================================================================== -->
+    <section class="faq-section">
+      <div class="container faq-container">
+        <div class="section-header" style="text-align:center;">
+          <span class="section-tag">QUESTIONS &amp; ANSWERS</span>
+          <h2 class="section-title">Frequently Asked Questions</h2>
+          <p class="section-subtitle" style="margin: 12px auto 0;">
+            Clear answers to help you understand how Dhandho Presents works for your store.
+          </p>
+        </div>
+
+        <div class="faq-list">
+          <div class="faq-item active">
+            <button type="button" class="faq-question-btn">
+              Do I need to come on camera personally?
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Our Main USP is founder-led marketing because it builds massive trust. However, if you are camera-shy, our team provides AI voiceovers, aesthetic product b-roll showcases, and guided prompt teleprompter scripts that make recording natural and effortless.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button type="button" class="faq-question-btn">
+              How quickly can my retail shop see results?
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Most of our retail clients see noticeable increases in reel views, comments, and direct WhatsApp customer inquiries within the first 14 to 30 days of consistent posting and algorithm-optimized storytelling.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button type="button" class="faq-question-btn">
+              Why should I choose organic growth over paid Meta ads?
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                With paid ads, the day you stop paying Zuckerberg, your leads stop immediately. Organic content stays on your profile forever, continually discovering new local buyers and building a recognizable brand asset that you actually own.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button type="button" class="faq-question-btn">
+              What if I still want to run some sponsored ads?
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                That is the beauty of our balanced strategy! When your reel scripts are captivating and proven organically, boosting them with a small ad budget produces 5x to 10x higher inquiry rates than running generic static posters.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button type="button" class="faq-question-btn">
+              Which cities in Gujarat do you serve?
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                We actively work with retail brands across Surat, Ahmedabad, Vadodara, Rajkot, Bhavnagar, Jamnagar, Gandhinagar, and throughout Gujarat.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================================================
+       SITE FOOTER
+       ========================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <a href="#home" class="brand-logo">
+          <img src="assets/dhandho-logo.jpg" alt="Dhandho Presents Logo" class="brand-logo-img">
+          <div class="brand-text">
+            <span class="brand-title">Dhandho Presents</span>
+            <span class="brand-subtitle">AI-Powered Instagram Marketing</span>
+          </div>
+        </a>
+
+        <div class="footer-links">
+          <a href="#home" class="footer-link">Home</a>
+          <a href="#services" class="footer-link">Services</a>
+          <a href="#packages" class="footer-link">Packages</a>
+          <a href="#why-us" class="footer-link">Why Dhandho</a>
+          <a href="#projects" class="footer-link">Projects</a>
+          <a href="#results" class="footer-link">Results</a>
+          <a href="#about" class="footer-link">Founder</a>
+          <a href="#calculator" class="footer-link">Calculator</a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          &copy; 2026 Dhandho Presents. All rights reserved. &bull; Made with pride in Gujarat.
+        </div>
+        <div class="footer-social-icons">
+          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="Instagram">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+              <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+            </svg>
+          </a>
+          <a href="https://wa.me/919909012345" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="WhatsApp">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.007c.106.005.249-.04.39.299.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.353.101.173.45 1.056 1.348 1.855 1.154 1.026 2.127 1.343 2.428 1.492.301.149.477.13.655-.072.178-.203.764-.888.966-1.192.203-.304.405-.254.678-.153.274.101 1.739.82 2.042.971.303.151.505.226.578.352.072.126.072.73-.072 1.135z"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       FLOATING WHATSAPP BUTTON (STICKY BOTTOM RIGHT)
+       ========================================================================== -->
+  <a href="#whatsapp" class="floating-whatsapp-trigger open-whatsapp-modal" aria-label="Quick WhatsApp Inquiry">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.007c.106.005.249-.04.39.299.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.353.101.173.45 1.056 1.348 1.855 1.154 1.026 2.127 1.343 2.428 1.492.301.149.477.13.655-.072.178-.203.764-.888.966-1.192.203-.304.405-.254.678-.153.274.101 1.739.82 2.042.971.303.151.505.226.578.352.072.126.072.73-.072 1.135z"/>
+    </svg>
+    <span>Chat with Dhandho</span>
+  </a>
+
+  <!-- ==========================================================================
+       INTERACTIVE MODALS
+       ========================================================================== -->
+
+  <!-- 1. WhatsApp Instant Inquiry Modal -->
+  <div class="modal-backdrop" id="whatsappModal">
+    <div class="modal-window">
+      <button type="button" class="modal-close-btn" id="closeWhatsappModal" aria-label="Close dialog">&times;</button>
+      <div style="display:flex; align-items:center; gap:12px; margin-bottom:20px;">
+        <img src="assets/dhandho-logo.jpg" alt="Dhandho Presents" style="width:48px; height:48px; border-radius:50%; border:1px solid var(--border-light);">
+        <div>
+          <h3 style="font-family:var(--font-heading); font-size:20px; font-weight:800; color:var(--text-main); margin-bottom:2px;">Chat with Dhandho Presents</h3>
+          <p style="font-size:13px; color:var(--text-muted);">Direct message to our strategy desk &bull; Typically replies in 5 mins</p>
+        </div>
+      </div>
+
+      <form id="whatsappInquiryForm" style="display:flex; flex-direction:column; gap:16px;">
+        <div>
+          <label for="waShopName" style="display:block; font-size:13px; font-weight:700; margin-bottom:6px; color:var(--text-main);">Your Business / Shop Name:</label>
+          <input type="text" id="waShopName" class="calc-select" placeholder="e.g. Radhe Boutique, Maa Ice Cream..." required>
+        </div>
+
+        <div style="display:grid; grid-template-columns:1fr 1fr; gap:12px;">
+          <div>
+            <label for="waCategory" style="display:block; font-size:13px; font-weight:700; margin-bottom:6px; color:var(--text-main);">Industry:</label>
+            <select id="waCategory" class="calc-select">
+              <option value="Fashion & Boutiques">Fashion / Sarees</option>
+              <option value="Retail & Food">Food & Dining</option>
+              <option value="Electronics & Retail">Electronics Retail</option>
+              <option value="Jewelry & Accessories">Jewelry Store</option>
+              <option value="Ayurvedic & Wellness">Wellness / Cosmetics</option>
+              <option value="Other Business">Other Local Business</option>
+            </select>
+          </div>
+
+          <div>
+            <label for="waCity" style="display:block; font-size:13px; font-weight:700; margin-bottom:6px; color:var(--text-main);">City in Gujarat:</label>
+            <input type="text" id="waCity" class="calc-select" placeholder="Surat, Ahmedabad, Rajkot..." required>
+          </div>
+        </div>
+
+        <div>
+          <label for="waPackage" style="display:block; font-size:13px; font-weight:700; margin-bottom:6px; color:var(--text-main);">Selected Package:</label>
+          <select id="waPackage" class="calc-select">
+            <option value="Package 02 - Growth Accelerator (₹18,000/mo)">Package 02: Growth Accelerator (₹18,000 / month) — Recommended</option>
+            <option value="Package 01 - Content Starter (₹10,000/mo)">Package 01: Content Starter (₹10,000 / month)</option>
+            <option value="Package 03 - Brand Dominance (Waitlist / Early Access)">Package 03: Brand Dominance (Custom / Coming Soon)</option>
+            <option value="Custom Plan / General Inquiry">Custom Plan / General Strategy Consultation</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="waGoal" style="display:block; font-size:13px; font-weight:700; margin-bottom:6px; color:var(--text-main);">What is your primary goal?</label>
+          <select id="waGoal" class="calc-select">
+            <option value="Grow Organic Instagram Reach">Grow Organic Instagram Reach (Stop wasting ad money)</option>
+            <option value="Get More Walk-in Customers">Get More Store Walk-ins & Direct WhatsApp Sales</option>
+            <option value="Launch High-Retention AI Reels">Create High-Retention AI Viral Reels for Products</option>
+            <option value="Complete Brand Overhaul">Full Instagram Management & Brand Positioning</option>
+          </select>
+        </div>
+
+        <button type="submit" class="btn btn-whatsapp btn-lg" style="width:100%; margin-top:8px;">
+          Send via WhatsApp &rarr;
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- 2. Case Study Deep Dive Modal -->
+  <div class="modal-backdrop" id="caseStudyModal">
+    <div class="modal-window" style="max-width:680px;">
+      <button type="button" class="modal-close-btn" id="closeCaseStudyModal" aria-label="Close dialog">&times;</button>
+      
+      <div style="margin-bottom:16px;">
+        <span class="section-tag" id="modalCaseTag">Case Study Spotlight</span>
+        <h3 id="modalCaseTitle" style="font-family:var(--font-heading); font-size:26px; font-weight:800; color:var(--text-main); margin-bottom:6px;">Project Title</h3>
+        <div id="modalCaseMetric" style="font-family:var(--font-heading); font-size:18px; font-weight:700; color:var(--brand-whatsapp); margin-bottom:12px;">+248% Instagram Reach in 45 Days</div>
+      </div>
+
+      <div style="border-radius:12px; overflow:hidden; margin-bottom:20px; aspect-ratio:16/9; max-height:280px;">
+        <img id="modalCaseImage" src="assets/bhakti-project.jpg" alt="Case Study Highlight" style="width:100%; height:100%; object-fit:cover;">
+      </div>
+
+      <p id="modalCaseSummary" style="font-size:15px; font-weight:600; color:var(--text-main); line-height:1.6; margin-bottom:16px;">Summary text</p>
+
+      <div id="modalCaseStats" style="display:grid; grid-template-columns:repeat(3, 1fr); gap:12px; margin-bottom:20px;">
+        <!-- Filled dynamically -->
+      </div>
+
+      <!-- Mini Reels Section if available for this case study -->
+      <div id="modalCaseReelsContainer" style="display:none; margin-bottom:20px;">
+        <div class="case-study-reels-heading">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polygon points="23 7 16 12 23 17 23 7"></polygon>
+            <rect x="1" y="5" width="15" height="14" rx="2" ry="2"></rect>
+          </svg>
+          Campaign Reels (Click to Watch Full Player)
+        </div>
+        <div class="case-study-reels-row" id="modalCaseReelsRow">
+          <!-- Filled dynamically via JS -->
+        </div>
+      </div>
+
+      <p id="modalCaseDetails" style="font-size:14px; color:var(--text-body); line-height:1.65; margin-bottom:24px;">Deep dive content details</p>
+
+      <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:12px; padding-top:16px; border-top:1px solid var(--border-light);">
+        <span style="font-size:13px; color:var(--text-muted);">Want identical organic results for your store?</span>
+        <button type="button" class="btn btn-whatsapp open-whatsapp-modal">
+          Discuss on WhatsApp &rarr;
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- 3. Dedicated Interactive Reels Player Modal -->
+  <div class="modal-backdrop" id="reelsPlayerModal">
+    <div class="modal-window reels-modal-window">
+      <button type="button" class="modal-close-btn" id="closeReelsPlayerModal" aria-label="Close reel player">&times;</button>
+      
+      <div class="reels-modal-layout">
+        <!-- Phone Frame Container -->
+        <div class="reels-modal-phone">
+          <div class="reels-iframe-container" id="reelsIframeContainer">
+            <!-- Iframe injected via JS -->
+          </div>
+        </div>
+
+        <!-- Sidebar / Details Container -->
+        <div class="reels-modal-sidebar">
+          <div>
+            <div class="reels-modal-header">
+              <div class="reel-creator-badge" style="margin-bottom:0;">
+                <img src="assets/client-bhakti.jpg" alt="Bhakti Creation" class="creator-avatar" style="width:44px; height:44px;">
+                <div>
+                  <div class="creator-name" style="font-size:15px; font-weight:700; color:var(--text-main);">
+                    bhakti_creation22 <span style="color:#0095f6;">✔</span>
+                  </div>
+                  <div style="font-size:12px; color:var(--text-muted);">Tirumala Shopping Mall &bull; Gondal, Gujarat</div>
+                </div>
+              </div>
+              <span class="reels-counter-badge" id="reelsModalCounter">Reel 1 of 4</span>
+            </div>
+
+            <div class="reels-modal-info">
+              <span class="section-tag" id="reelsModalTag">Viral Hook</span>
+              <h3 id="reelsModalTitle" style="font-family:var(--font-heading); font-size:20px; font-weight:800; color:var(--text-main); margin-bottom:10px; line-height:1.35;">
+                Reel Title
+              </h3>
+              <p id="reelsModalCaption" style="font-size:13.5px; color:var(--text-body); line-height:1.6; margin-bottom:16px;">
+                Caption text
+              </p>
+
+              <div class="reels-stats-grid" id="reelsModalStats">
+                <div class="reel-stat-box">
+                  <span class="stat-num" id="reelStatViews">85K+</span>
+                  <span class="stat-lbl">Total Views</span>
+                </div>
+                <div class="reel-stat-box">
+                  <span class="stat-num" id="reelStatEngagement">5.2%</span>
+                  <span class="stat-lbl">Engagement</span>
+                </div>
+                <div class="reel-stat-box">
+                  <span class="stat-num" id="reelStatAdSpend">₹0</span>
+                  <span class="stat-lbl">Ad Spend</span>
+                </div>
+              </div>
+
+              <div class="reels-strategy-takeaway">
+                <div style="font-size:11.5px; font-weight:800; text-transform:uppercase; letter-spacing:0.05em; color:var(--text-main); margin-bottom:4px;">
+                  💡 Dhandho Creative Strategy:
+                </div>
+                <p id="reelsModalStrategy" style="font-size:13px; color:var(--text-muted); line-height:1.5; margin:0;">
+                  We filmed customer try-on moments and real Gondal street reactions instead of staged models.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Navigation & CTA Controls -->
+          <div class="reels-modal-actions">
+            <div class="reels-nav-buttons">
+              <button type="button" class="btn btn-outline btn-sm" id="prevReelBtn">
+                &larr; Previous Reel
+              </button>
+              <button type="button" class="btn btn-outline btn-sm" id="nextReelBtn">
+                Next Reel &rarr;
+              </button>
+            </div>
+
+            <a href="https://www.instagram.com/p/DeovCf8E38S/" target="_blank" rel="noopener noreferrer" class="btn btn-dark btn-sm" id="reelsModalInstaLink" style="width:100%; justify-content:center;">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+              </svg>
+              Watch On Instagram App &rarr;
+            </a>
+
+            <button type="button" class="btn btn-whatsapp btn-sm open-whatsapp-modal" style="width:100%; justify-content:center;">
+              Get Similar Reels For My Business &rarr;
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dhandho Presents — Package Rate Cards & Client Images</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/jpeg" href="assets/dhandho-logo.jpg">
+  <style>
+    body {
+      background-color: #0c0d0e;
+      color: #f4f4f5;
+      padding: 40px 20px;
+      font-family: var(--font-body, -apple-system, BlinkMacSystemFont, sans-serif);
+    }
+    .cards-container {
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+    .cards-header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .cards-header img {
+      width: 72px;
+      height: 72px;
+      border-radius: 50%;
+      margin: 0 auto 16px;
+      border: 2px solid #27272a;
+    }
+    .cards-header h1 {
+      font-family: var(--font-heading, sans-serif);
+      font-size: 32px;
+      color: #ffffff;
+      margin-bottom: 8px;
+    }
+    .cards-header p {
+      color: #a1a1aa;
+      font-size: 16px;
+    }
+    .cards-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 32px;
+      margin-bottom: 50px;
+    }
+    .client-card-item {
+      background: #141417;
+      border: 1px solid #27272a;
+      border-radius: 20px;
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      transition: transform 0.2s ease, border-color 0.2s ease;
+    }
+    .client-card-item:hover {
+      border-color: #3f3f46;
+      transform: translateY(-4px);
+    }
+    .client-card-item.featured {
+      border: 2px solid #c2410c;
+      box-shadow: 0 10px 30px rgba(194, 65, 12, 0.15);
+    }
+    .badge-wrap {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 16px;
+    }
+    .plan-tag {
+      background: #27272a;
+      color: #e4e4e7;
+      padding: 4px 12px;
+      border-radius: 999px;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+    }
+    .featured-tag {
+      background: #c2410c;
+      color: #ffffff;
+    }
+    .img-preview-box {
+      border-radius: 14px;
+      overflow: hidden;
+      background: #000;
+      margin-bottom: 20px;
+      border: 1px solid #27272a;
+    }
+    .img-preview-box img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+    .plan-info h3 {
+      font-size: 20px;
+      color: #ffffff;
+      margin-bottom: 4px;
+    }
+    .plan-price {
+      font-size: 24px;
+      font-weight: 800;
+      color: #25D366;
+      margin-bottom: 12px;
+    }
+    .plan-deliverables {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 20px 0;
+      font-size: 14px;
+      color: #d4d4d8;
+    }
+    .plan-deliverables li {
+      padding: 6px 0;
+      border-bottom: 1px solid #1f1f23;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .plan-deliverables li::before {
+      content: "✓";
+      color: #25D366;
+      font-weight: bold;
+    }
+    .action-row {
+      margin-top: auto;
+      display: flex;
+      gap: 12px;
+    }
+    .btn-download {
+      flex: 1;
+      background: #ffffff;
+      color: #09090b;
+      padding: 12px 16px;
+      border-radius: 10px;
+      font-weight: 600;
+      font-size: 14px;
+      text-align: center;
+      text-decoration: none;
+      transition: background 0.2s;
+    }
+    .btn-download:hover {
+      background: #e4e4e7;
+    }
+    .btn-whatsapp-copy {
+      flex: 1;
+      background: #25D366;
+      color: #ffffff;
+      padding: 12px 16px;
+      border-radius: 10px;
+      font-weight: 600;
+      font-size: 14px;
+      text-align: center;
+      cursor: pointer;
+      border: none;
+      transition: background 0.2s;
+    }
+    .btn-whatsapp-copy:hover {
+      background: #20bd5a;
+    }
+    .whatsapp-templates-section {
+      background: #141417;
+      border: 1px solid #27272a;
+      border-radius: 20px;
+      padding: 32px;
+      margin-top: 40px;
+    }
+    .whatsapp-templates-section h2 {
+      font-size: 22px;
+      color: #ffffff;
+      margin-bottom: 8px;
+    }
+    .template-box {
+      background: #09090b;
+      border: 1px solid #27272a;
+      border-radius: 12px;
+      padding: 16px;
+      margin-top: 16px;
+      position: relative;
+    }
+    .template-box pre {
+      white-space: pre-wrap;
+      font-family: inherit;
+      font-size: 14px;
+      color: #d4d4d8;
+      line-height: 1.6;
+    }
+    .copy-btn {
+      position: absolute;
+      top: 14px;
+      right: 14px;
+      background: #27272a;
+      color: #fff;
+      border: 1px solid #3f3f46;
+      border-radius: 8px;
+      padding: 6px 12px;
+      font-size: 12px;
+      cursor: pointer;
+    }
+    .copy-btn:hover {
+      background: #3f3f46;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="cards-container">
+    <div class="cards-header">
+      <img src="assets/dhandho-logo.jpg" alt="Dhandho Presents Logo">
+      <h1>Client Package Images &amp; Rate Cards</h1>
+      <p>Save or send these high-resolution package cards directly to prospective clients on WhatsApp &amp; Instagram.</p>
+    </div>
+
+    <div class="cards-grid">
+      <!-- Card 1: 10,000 Plan -->
+      <div class="client-card-item">
+        <div class="badge-wrap">
+          <span class="plan-tag">PACKAGE 01</span>
+          <span style="font-size:12px; color:#a1a1aa;">Single Card</span>
+        </div>
+        <div class="img-preview-box">
+          <img src="assets/packages/package-01-content-starter-10k.jpg" alt="Package 01 Content Starter 10000 INR (9 Reels)">
+        </div>
+        <div class="plan-info">
+          <h3>Content Starter</h3>
+          <div class="plan-price">₹10,000 <span style="font-size:14px; color:#a1a1aa; font-weight:normal;">/ month</span></div>
+          <ul class="plan-deliverables">
+            <li><strong>9 High-Retention Reels</strong> per month</li>
+            <li>7 High-Quality Posts per month</li>
+            <li>AI-powered creative visuals &amp; hooks</li>
+            <li>Monthly content calendar</li>
+            <li>Captions &amp; trending audio selection</li>
+          </ul>
+        </div>
+        <div class="action-row">
+          <a href="assets/packages/package-01-content-starter-10k.jpg" download="Dhandho-Presents-Package-01-Starter-10k.jpg" target="_blank" class="btn-download">Save Image</a>
+          <button type="button" class="btn-whatsapp-copy" onclick="copyTemplate('template-10k')">Copy Pitch</button>
+        </div>
+      </div>
+
+      <!-- Card 2: 18,000 Plan (Recommended) -->
+      <div class="client-card-item featured">
+        <div class="badge-wrap">
+          <span class="plan-tag featured-tag">PACKAGE 02 • RECOMMENDED</span>
+          <span style="font-size:12px; color:#25D366; font-weight:bold;">Most Popular</span>
+        </div>
+        <div class="img-preview-box">
+          <img src="assets/packages/package-02-growth-accelerator-18k.jpg" alt="Package 02 Growth Accelerator 18000 INR (12 Reels)">
+        </div>
+        <div class="plan-info">
+          <h3>Growth Accelerator</h3>
+          <div class="plan-price">₹18,000 <span style="font-size:14px; color:#a1a1aa; font-weight:normal;">/ month</span></div>
+          <ul class="plan-deliverables">
+            <li><strong>12 High-Retention Reels</strong> per month</li>
+            <li>15 High-Quality Posts per month</li>
+            <li>Growth Strategy &amp; Campaign Planning</li>
+            <li>Paid Meta Ads Campaign Setup &amp; Management</li>
+            <li>Transparent: ₹15k Agency Fee + ₹3k Ad Spend</li>
+          </ul>
+        </div>
+        <div class="action-row">
+          <a href="assets/packages/package-02-growth-accelerator-18k.jpg" download="Dhandho-Presents-Package-02-Growth-18k.jpg" target="_blank" class="btn-download">Save Image</a>
+          <button type="button" class="btn-whatsapp-copy" onclick="copyTemplate('template-18k')">Copy Pitch</button>
+        </div>
+      </div>
+
+      <!-- Card 3: All-in-One Rate Card -->
+      <div class="client-card-item">
+        <div class="badge-wrap">
+          <span class="plan-tag">ALL-IN-ONE RATE CARD</span>
+          <span style="font-size:12px; color:#a1a1aa;">Comparison</span>
+        </div>
+        <div class="img-preview-box">
+          <img src="assets/packages/all-packages-rate-card.jpg" alt="All Packages Rate Card Overview (9 & 12 Reels)">
+        </div>
+        <div class="plan-info">
+          <h3>All Packages Side-by-Side</h3>
+          <div class="plan-price" style="font-size:18px; color:#fff;">Starter (₹10k) vs Growth (₹18k)</div>
+          <ul class="plan-deliverables">
+            <li>Starter: 9 Reels &bull; 7 Posts</li>
+            <li>Growth: 12 Reels &bull; 15 Posts + Ads</li>
+            <li>Complete rate comparison sheet</li>
+            <li>Includes WhatsApp QR code &amp; contact badge</li>
+          </ul>
+        </div>
+        <div class="action-row">
+          <a href="assets/packages/all-packages-rate-card.jpg" download="Dhandho-Presents-All-Packages-Rate-Card.jpg" target="_blank" class="btn-download">Save Image</a>
+        </div>
+      </div>
+
+      <!-- Card 4: Mobile WhatsApp Story -->
+      <div class="client-card-item">
+        <div class="badge-wrap">
+          <span class="plan-tag">MOBILE VERTICAL (9:16)</span>
+          <span style="font-size:12px; color:#a1a1aa;">WhatsApp Status / Story</span>
+        </div>
+        <div class="img-preview-box">
+          <img src="assets/packages/packages-whatsapp-story.jpg" alt="WhatsApp Story Package Flyer (9 & 12 Reels)">
+        </div>
+        <div class="plan-info">
+          <h3>WhatsApp Status Rate Card</h3>
+          <div class="plan-price" style="font-size:18px; color:#fff;">Full Screen 9:16 Format</div>
+          <ul class="plan-deliverables">
+            <li>Starter: 9 Reels &bull; Growth: 12 Reels</li>
+            <li>Tailored for WhatsApp Status &amp; Insta Stories</li>
+            <li>Features direct "Tap to Chat" styling</li>
+            <li>No binding contracts &bull; 100% transparent</li>
+          </ul>
+        </div>
+        <div class="action-row">
+          <a href="assets/packages/packages-whatsapp-story.jpg" download="Dhandho-Presents-WhatsApp-Story-Packages.jpg" target="_blank" class="btn-download">Save Image</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- WhatsApp Pitch Templates -->
+    <div class="whatsapp-templates-section">
+      <h2>Ready-to-Send WhatsApp Text Messages</h2>
+      <p style="color:#a1a1aa; font-size:14px; margin-bottom:20px;">Attach the downloaded package image above and paste this message on WhatsApp to your client:</p>
+
+      <div class="template-box">
+        <button class="copy-btn" onclick="copyTemplate('template-10k')">Copy 10k Pitch</button>
+        <pre id="template-10k">Namaste! 🙏
+
+Here is our Package 01: Content Starter at Dhandho Presents — designed specially for retail shops looking to build a consistent, professional brand on Instagram:
+
+✨ Package 01: Content Starter (₹10,000/month)
+🎬 9 Reels / month (concept, edit & trending audio)
+📸 7 Creative Posts / month
+🤖 AI-Powered creative hooks & visuals
+📅 Complete monthly content calendar
+✍️ Engaging Gujarati/Hindi/English captions & hashtags
+
+✅ No long-term lock-in (Month-to-month)
+✅ 100% transparent process
+
+Let us know if you'd like to see sample reels we created for local shops! 🚀</pre>
+      </div>
+
+      <div class="template-box">
+        <button class="copy-btn" onclick="copyTemplate('template-18k')">Copy 18k Pitch</button>
+        <pre id="template-18k">Namaste! 🙏
+
+Here is our most popular package at Dhandho Presents — the Growth Accelerator plan that combines high-retention organic reels with targeted local advertising to drive real footfall to your shop:
+
+⭐ Package 02: Growth Accelerator (₹18,000/month) [Most Popular]
+🎬 12 Reels / month (high-retention video production)
+📸 15 Creative Posts / month
+🎯 Paid Meta Ads setup & hyper-local targeting (Gujarat / your city)
+📊 Monthly performance review & customer inquiry tracking
+💡 End-to-end strategy & creative direction
+
+💰 100% Transparent Cost Breakdown:
+• Agency Management Fee: ₹15,000
+• Direct Ad Budget (boosts & inquiries): ₹3,000
+• Total Investment: ₹18,000 / month
+
+✅ No lock-in contracts • Cancel anytime
+Ready to start this month? Reply with YES and let's schedule a 10-minute discovery call!</pre>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function copyTemplate(id) {
+      const text = document.getElementById(id).innerText;
+      navigator.clipboard.writeText(text).then(() => {
+        alert('Copied pitch message to clipboard!');
+      });
+    }
+  </script>
+</body>
+</html>
